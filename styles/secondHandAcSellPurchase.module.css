@@ -1,0 +1,33 @@
+.crousel-img1 {
+    background-image: url("../second-hand-ac-sell/asset/first.webp");
+  }
+  
+  .crousel-img2 {
+    background-image: url("../second-hand-ac-sell/asset/second.jpg");
+  }
+  
+  .crousel-img3{
+    background-image: url("../second-hand-ac-sell/asset/third.jpg");
+  }
+  
+  .bgTestimonial {
+    background-image: url("../assets/imgs/crousel2.jpg");
+    background-attachment: fixed;
+  }
+  
+  .crousel-img1,
+  .crousel-img2,
+  .crousel-img3,
+  .bgTestimonial {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
