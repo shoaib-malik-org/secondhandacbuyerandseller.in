@@ -7,8 +7,7 @@ export function Footer() {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h5 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3"></i>Second hand ac sell &
-                  purchase
+                  <i className="fas fa-gem me-3"></i>Second hand ac Buyer and Seller
                 </h5>
                 <p>
                   buy every type of air conditioner in working condition or not.
@@ -16,8 +15,8 @@ export function Footer() {
                   air conditioners
                 </p>
                 <p className="text-dark">
-                  <span className="fw-bold">Address</span> Plot no 12, Pocket D,
-                  Sarita Vihar, Delhi, 110076
+                  <span className="fw-bold">Address</span> Shop No. 07, Block L,
+                  New Industrial Twp 5, New Industrial Township, Faridabad, Haryana 121001
                 </p>
               </div>
 
