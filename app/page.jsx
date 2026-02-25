@@ -15,17 +15,17 @@ export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Eco second hand ac sale purchase",
+    "name": "Second hand ac Buyer and Seller",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": " Shop no 1, near dairy farm, Pocket C, Sarita Vihar",
-      "addressLocality": "New Delhi",
-      "addressRegion": "DL",
-      "postalCode": "110076"
+      "streetAddress": " Shop No. 07, Block L, New Industrial Twp 5, New Industrial Township",
+      "addressLocality": "Faridabad",
+      "addressRegion": "HR",
+      "postalCode": "121001"
     },
     // "image": storeFront.src,
-    "email": "saritasecondhandac@gmail.com",
-    "telePhone": "+919211487421",
+    "email": "secondcoolacdealer@gmail.com",
+    "telePhone": "+919810319795",
     "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 09:00-21:00",
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",
