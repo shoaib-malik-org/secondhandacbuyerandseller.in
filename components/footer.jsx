@@ -88,7 +88,7 @@ export function Footer() {
           className="text-center p-4"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
-          © 2025 Copyright: shoaib malik
+          © 2026 Copyright: shoaib malik
         </div>
       </footer>
     </section>
