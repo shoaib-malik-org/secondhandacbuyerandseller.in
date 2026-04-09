@@ -2,7 +2,7 @@ import style from "@/styles/Home.module.css";
 import Link from "next/link";
 import dealInList from '@/data/homeThingsBuy.json'
 
-export function Main({phoneNumber = "919810319795"}) {
+export function Main({ phoneNumber = "919810319795" }) {
   return (
     <section id="home">
       <article>
@@ -27,11 +27,13 @@ export function Main({phoneNumber = "919810319795"}) {
                   not. We also buy chiller plants, Centralize, big ductable, and
                   cassete air conditioners
                 </p>
-                <Link href={`tel:+${phoneNumber}`}>
-                  <button className="btn btn-primary rounded-pill p-2 px-4 mt-4 text-large ms-md-0 ms-auto me-auto d-block">
-                    <i className="fa-solid fa-phone me-2 fa-sm"></i> Contact
-                  </button>
-                </Link>
+                <div itemScope itemType="http://schema.org/LocalBusiness" className="mt-4">
+                  <span itemProp="telephone">
+                    <a href="tel:+919810319795">
+                      <button className="btn btn-primary rounded-pill px-4">Contact</button>
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
             <div

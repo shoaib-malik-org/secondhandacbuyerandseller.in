@@ -22,19 +22,20 @@ export function Contact({
         </p>
         <div className="row mt-5">
           <div className="col-md-5">
-            <Link href={`tel:+${phoneNumber}`}>
-              <div className="row on-mouse-over mb-3">
-                <div className="col-2 text-center">
-                  <i className="fa-solid fa-mobile-screen-button icon fa-lg"></i>
-                </div>
-                <div className="col">
-                  <h5 className="text-dgrey mb-0">Phone</h5>
-                  <p className="text-secondary text-sans mt-1">
-                    +{phoneNumber}
-                  </p>
-                </div>
+            <div className="row on-mouse-over mb-3">
+              <div className="col-2 text-center">
+                <i className="fa-solid fa-mobile-screen-button icon fa-lg"></i>
               </div>
-            </Link>
+              <div className="col">
+                <h5 className="text-dgrey mb-0">Phone</h5>
+
+                <div itemScope itemType="http://schema.org/LocalBusiness">
+                  <span itemProp="telephone"><a href="tel:+919810319795">+919810319795</a></span>
+                </div>
+
+              </div>
+            </div>
+
             <Link href={`https://wa.me/+${phoneNumber}`}>
               <div className="row on-mouse-over mb-3">
                 <div className="col-2 text-center">

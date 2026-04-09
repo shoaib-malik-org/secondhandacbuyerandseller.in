@@ -70,15 +70,10 @@ export function Footer() {
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <a href="tel:+919810319795" className="text-muted">
-                  <i className="fas fa-phone me-3"></i> +919810319795
-                </a>
-                <a
-                  href="https://wa.me/+919810319795"
-                  className="d-block mt-3 text-muted"
-                >
-                  <i className="fa-brands fa-whatsapp me-3"></i> +919810319795
-                </a>
+                <div itemScope itemType="http://schema.org/LocalBusiness">
+                  <span itemProp="telephone"><a href="tel:+919810319795" className="text-muted">+919810319795</a></span>
+                </div>
+                
               </div>
             </div>
           </div>

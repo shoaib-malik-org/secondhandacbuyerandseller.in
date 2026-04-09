@@ -89,12 +89,10 @@ export function Navbar() {
               </Link>
             </li>
           </ul>
-          <div className="d-flex justify-content-center">
-            <Link href={"tel:+919810319795"}>
-              <button className="btn btn-theme rounded-pill px-3">
-                <i className="fa-solid fa-phone me-2 fa-sm"></i> Call
-              </button>
-            </Link>
+          <div className="d-flex justify-content-center align-items-center">
+            <div itemScope itemType="http://schema.org/LocalBusiness">
+              <span itemProp="telephone"><a href="tel:+919810319795">+919810319795</a></span>
+            </div>
             <Link href={"https://wa.me/+919810319795"}>
               <button className="btn btn-theme rounded-pill px-3 ms-2">
                 <i className="fa-brands fa-whatsapp me-2 fa-sm"></i> Whatsapp
