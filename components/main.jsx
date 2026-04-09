@@ -30,7 +30,7 @@ export function Main({ phoneNumber = "919810319795" }) {
                 <div itemScope itemType="http://schema.org/LocalBusiness" className="mt-4">
                   <span itemProp="telephone">
                     <a href="tel:+919810319795">
-                      <button className="btn btn-primary rounded-pill px-4">Contact</button>
+                      <button className="btn btn-primary rounded-pill px-4">+919810319795</button>
                     </a>
                   </span>
                 </div>
